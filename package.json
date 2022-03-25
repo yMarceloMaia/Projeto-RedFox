@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "clear && ts-node-dev ./src/index.ts",
-    "start": "tsc && node ./build/index.js",
+    "dev": "ts-node-dev ./src/index.ts",
+    "start": "node ./build/src/index.js",
+    "build": "tsc",
     "test": "jest"
   },
   "keywords": [],
